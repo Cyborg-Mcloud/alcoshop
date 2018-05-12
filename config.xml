@@ -10,7 +10,7 @@
 
 
 	
-  <icon src="www/resources/taxi.png"/>
+  <icon src="www/resources/logo.png"/>
 	<icon src="www/resources/taxi_1024.jpg" width="1024" height="1024" />
 
 <access origin="*" />
