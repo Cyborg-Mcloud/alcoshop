@@ -34,7 +34,8 @@ function StartWebView()
 	{
 	var url='http://alcoshop.ge?myid='+Math.random()*10000000;
 	console.log(url);
-	ref = cordova.InAppBrowser.open(url, '_self', 'location=no, clearcache=yes');
+//	ref = cordova.InAppBrowser.open(url, '_self', 'location=no, clearcache=yes');
+	window.location=url;
 	}
 
 
